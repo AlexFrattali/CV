@@ -1,0 +1,248 @@
+body {
+  background-color: #e7e7de;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  margin: 20px;
+  padding: 50px;
+  width: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  text-align: center;
+}
+
+p {
+  color: #00587a;
+  font-size: 1.2rem;
+}
+
+/* Headings */
+.nameHeading {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.5rem;
+  padding-top: 25px;
+}
+
+.mainHeading {
+  color: #0f3057;
+}
+
+/* Sections */
+section {
+  padding: 5% 15%;
+}
+
+.sectionImages{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #e7e7de;
+  color: #00587a;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+/* My Name and Pic */
+#myName {
+  color: #00587a;
+  text-align: center;
+  padding: 15px;
+}
+
+.myImage {
+  border: 5px solid #008891;
+  border-radius: 50%;
+  width: auto;
+}
+
+/* About Me */
+#aboutMe {
+  color: #008891;
+  text-align: justify;
+  padding: 30px;
+}
+
+/* My Experience */
+#myExperience {
+  color: #008891;
+  padding: 30px;
+  margin-top: 0;
+  margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+/* My Qualifications */
+.member {
+  text-align: center;
+}
+
+/* Contact Me */
+#contactMe {
+  color: #008891;
+  padding: 30px;
+  margin: 10px 20px;
+}
+
+.mail{
+  color: #008891;
+  text-align: center;
+}
+
+.contactText {
+  text-align: center;
+}
+
+form {
+  color: #00587a;
+  font-weight: bold;
+  width: 680px;
+  margin: auto;
+}
+
+input[type=text] {
+  border: none;
+  border-radius: 6px;
+  color: #00587a;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+textarea {
+  color: #00587a;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=email] {
+  border: none;
+  border-radius: 6px;
+  color: #00587a;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=submit] {
+  background-color: #008891;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-decoration: none;
+  text-align: center;
+  width: 20%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 680px;
+  margin-top: 0;
+  margin-bottom: auto;
+margin-left: auto;
+margin-right: auto;
+}
+
+.footerTable, td {
+  border: 10px;
+  border-color: #008891;
+  border-radius: 6px;
+  border-collapse: collapse;
+  margin: auto;
+  padding: 16px 32px;
+  text-align: center;
+  width: auto;
+}
+
+/* Follow Me */
+#followMe {
+  padding: 30px;
+}
+
+.socialMedia {
+  color: #008891;
+  margin: 10px 20px;
+  text-align: center;
+}
+
+.socialMedia:hover{
+    color: #fa26a0;
+}
+
+.footer {
+  color: #00587a;
+  padding: 30px;
+}
+
+a:link {
+  color: #93329e;
+}
+
+a:visited {
+  color: #65c6c4;
+}
+
+a:hover {
+  color: #fa26a0;
+}
+
+a:active {
+  color: #ff005c;
+}
+
+/* TABLES */
+th, td {
+  color: #00587a;
+  text-align: left;
+  font-size: 1rem;
+  padding: 10px;
+  margin: auto;
+}
+
+th:first-child {
+  border-radius: 6px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 6px 0 0;
+}
+
+th:only-child {
+  border-radius: 6px 6px 0 0;
+}
