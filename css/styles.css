@@ -1,0 +1,246 @@
+body {
+  background-color: #ffff;
+  font-family: 'Comfortaa', cursive;
+  line-height: 1.5;
+  margin: 20px;
+  padding: 50px;
+  width: auto;
+  color: #282846;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 700;
+  text-align: center;
+}
+
+h5, h6 {
+  font-weight: 600;
+  text-align: left;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Sections */
+section {
+  padding: 10%;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #ffff;
+  padding: 1rem 0 2rem;
+  color: #282846;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Comfortaa";
+  font-weight: 300;
+}
+
+.line {
+  border-left: 2px solid #282846;
+}
+
+.sticky-top {
+  text-align: right;
+}
+
+.fas {
+  color: grey;
+}
+
+/* My Name and Pic */
+#myName {
+  text-align: center;
+  padding: 15px;
+  margin: 10%;
+}
+
+.myImage {
+  border: 2px solid #282846;
+  border-radius: 50%;
+  width: 500px;
+}
+
+.name {
+  text-align: center;
+  margin: 180px auto auto;
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.circle h5 {
+  color: #ffff;
+  text-align: center;
+  padding:45px 0;
+}
+
+.circle, span {
+  margin: 20px;
+}
+
+.aboutMe {
+  border: 2px solid #282846;
+  background: #3DB2FF;
+}
+
+.CVme {
+  border: 2px solid #282846;
+  background: #66DE93;
+}
+
+.contactMe {
+  border: 2px solid #282846;
+  background: #FD6F96;
+}
+
+/* About Me */
+#aboutMe {
+  text-align: justify;
+  padding: 30px;
+  margin: auto 12%;
+}
+
+#myExperience {
+  padding: 20px;
+  margin: auto 5%;
+}
+
+#myExperience h1 {
+  text-decoration: underline #66DE93;
+  padding-bottom: 5px;
+}
+
+#aboutMe h1 {
+  text-decoration: underline #3DB2FF;
+  padding-bottom: 5px;
+}
+
+#contactMe h1 {
+  text-decoration: underline #FD6F96;
+padding-bottom: 5px;}
+
+/* My Qualifications */
+#myQualifications, #myTraining, #myMembership {
+  padding: 30px;
+  margin: auto 15%;
+}
+
+.member {
+  text-align: center;
+}
+
+/* Contact Me */
+#contactMe {
+  padding: 30px 0;
+  margin: 10px 30px;
+}
+
+
+.contactText {
+  text-align: center;
+}
+
+.email {
+  margin: 0 auto;
+}
+
+form {
+  color: #282846;
+  font-weight: bold;
+}
+
+input[type=text] {
+  border: 2px solid #FD6F96;
+  border-radius: 6px;
+  color: #282846;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+textarea  {
+  color: #282846;
+  width: 100%;
+  border: 2px solid #FD6F96;
+  border-radius: 6px;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=email] {
+  border: 2px solid #FD6F96;
+  border-radius: 6px;
+  color: #282846;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type=submit] {
+  background-color: #282846;
+  border: 2px solid #282846;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  padding: 8px;
+  text-decoration: none;
+  text-align: center;
+  width: 80px;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline;
+}
+
+table {
+  border-collapse: collapse;
+  width: 780px;
+  margin-top: 0 auto auto;
+}
+
+.footer {
+  color: #282846;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.circle:hover {
+opacity: 0.6;
+}
+
+a:link {
+  color: #93329e;
+}
+
+a:visited {
+  color: #65c6c4;
+}
+
+a:hover {
+  color: #fa26a0;
+}
+
+a:active {
+  color: #ff005c;
+}
