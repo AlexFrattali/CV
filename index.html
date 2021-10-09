@@ -7,8 +7,8 @@
 
   <title>Alex's Sustainability CV</title>
 
-<META HTTP-EQUIV=”refresh” CONTENT=”5; URL=http://www.alexgilbertCV.com/contact/refresh.html”>
-<meta name="description" content="Alex Gilbert is a Freelance Chartered Sustainability Consultant working in High Wycombe.  If you have a project that you want to get started, think you need help with something, then get in touch.">
+  <META HTTP-EQUIV=”refresh” CONTENT=”5; URL=http://www.alexgilbertCV.com/contact/refresh.html”>
+  <meta name="description" content="Alex Gilbert is a Freelance Chartered Sustainability Consultant working in High Wycombe.  If you have a project that you want to get started, think you need help with something, then get in touch.">
 
   <!-- Styles -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
@@ -182,8 +182,10 @@
       </div>
       <div class="col-lg-7">
         <p>
-          As a Senior Sustainability Specialist, I provided Sustainability statements and reports to support planning applications for multi phased and large scale new builds developments and those for Listed Buildings. I advised the design team on sustainable methods while carrying out the assessments from the design stage through to post construction.
-          <br>I carried out Costing Analysis for large schemes to achieve the required Code and BREEAM ratings and  provided small scale SUDs Advice reports, Demolition and Construction Management Plan and Sustainable Soil Removal Method Statement to support planning applications.
+          As a Senior Sustainability Specialist, I provided Sustainability statements and reports to support planning applications for multi phased and large scale new builds developments and those for Listed Buildings. I advised the design team on
+          sustainable methods while carrying out the assessments from the design stage through to post construction.
+          <br>I carried out Costing Analysis for large schemes to achieve the required Code and BREEAM ratings and provided small scale SUDs Advice reports, Demolition and Construction Management Plan and Sustainable Soil Removal Method Statement to
+          support planning applications.
           <br>As an Inclusive Design Champion I also advised on and assessed Lifetime Homes and accessibility of buildings and developments.
           <br>I was a Project Manager for small to large and multi phased projects, and a Client Relationship Manager.
         </p>
@@ -293,16 +295,23 @@
         </div>
 
         <div class="col-lg-6">
-          <form id="contact-form" class="form-horizontal container-fluid" method="post" action="contact.php">
-            <div class="email">
-              <label for="">Your Name</label>
-              <input type="text" name="yourName" value="">
-              <label for="">Your Email</label>
-              <input type="email" name="yourEmail" value="">
-              <label for="">Your Message</label>
-              <textarea name="yourMessage" rows="10" cols="30"></textarea>
-              <input type="submit" value="Send">
+          <form id="contact-form" class="form-horizontal" method="post" action="contact.php">
+            <label for="Name" class="form-label">Your name</label>
+            <div class="input-group">
+              <input type="text" id="Name" name="Name" class="form-control" required>
             </div>
+            <br>
+            <label for="Email" class="form-label">Your email address</label>
+            <div class="input-group">
+              <input type="email" id="Email" name="Email" class="form-control" required>
+            </div>
+            <br>
+            <label for="Message" class="form-label">Your message</label>
+            <div class="input-group">
+              <textarea id="Message" name="Message" class="form-control" rows="6" maxlength="3000" required></textarea>
+            </div>
+            <br>
+            <button type="submit" id="send-button" class="btn btn-outline-dark send-btn mx-auto d-block">Send</button>
           </form>
         </div>
       </div>
